@@ -48,7 +48,7 @@ class SiteNavbar extends HTMLElement {
             </nav>
         `;
     }
-       renderAuthControls() {
+    renderAuthControls() {
         const authControls = this.querySelector('#authControls');
 
         // Initialize with invisible placeholder to maintain layout space
@@ -70,4 +70,4 @@ class SiteNavbar extends HTMLElement {
 }
 
 customElements.define('site-navbar', SiteNavbar);
-this.renderAuthControls();
+// this.renderAuthControls();
